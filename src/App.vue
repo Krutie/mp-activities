@@ -38,7 +38,8 @@ a {
 }
 
 button,
-input {
+input,
+select {
   font-size: 0.95em;
   padding: 10px;
   border: 0px;
@@ -46,7 +47,8 @@ input {
   margin: 3px;
 }
 
-input {
+input,
+select {
   background: papayawhip;
 }
 
@@ -69,4 +71,49 @@ button:hover {
   color: darkolivegreen;
 }
 
+/* Utility CSS */
+
+.border-rounded {
+  border-bottom: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.border-bottom {
+  border-bottom: 1px solid lightgrey;
+}
+.p-y-5 {
+  padding: 5px 0;
+}
+.p-y-10 {
+  padding: 10px 0;
+}
+.p-y-20 {
+  padding: 20px 0;
+}
+.text-left {
+  text-align: left;;
+}
+.text-center {
+  text-align: center;;
+}
+.flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: flex-end;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.noHover{
+    pointer-events: none;
+}
+.w-50 {
+  width: 50%;
+}
 </style>
