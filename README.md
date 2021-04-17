@@ -1,5 +1,13 @@
 # mp-activities
 
+This project is built with `Vue CLI` with `Vue router` without any other additional dependencies. Project has three views/pages for the three activities requested: 
+- Activity 1: Data sorting and filtering
+- Activity 2: Get value by path
+- Activity 3: Reusable fetch
+
+The project is available online for immediate viewing: **https://megaport-activities.surge.sh** 
+Clone the repo and follow the instructions below to setup and run the project locally. 
+
 ## Project setup
 ```
 npm install
