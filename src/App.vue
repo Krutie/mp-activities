@@ -37,4 +37,36 @@ a {
   text-decoration: none;
 }
 
+button,
+input {
+  font-size: 0.95em;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+input {
+  background: papayawhip;
+}
+
+button {
+  background: palegoldenrod;
+  cursor: pointer;
+}
+
+button:hover {
+  background: palevioletred;
+}
+
+#app pre {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  border: 1px dashed peachpuff;
+  padding: 2px 0;
+  font-size: 0.95em;
+  color: darkolivegreen;
+}
+
 </style>
