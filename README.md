@@ -6,26 +6,34 @@ This project is built with `Vue CLI` with `Vue router` without any other additio
 - Activity 3: Reusable fetch
 
 The project is available online for immediate viewing: **https://megaport-activities.surge.sh** 
+
 Clone the repo and follow the instructions below to setup and run the project locally. 
+
+## Clone the repo
+
+```
+▶ git clone https://github.com/Krutie/mp-activities.git
+```
 
 ## Project setup
 ```
-npm install
+▶ cd mp-activities 
+▶ npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+▶ npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+▶ npm run build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+▶ npm run lint
 ```
 
 ### Customize configuration
